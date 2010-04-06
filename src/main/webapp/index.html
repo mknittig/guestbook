@@ -1,0 +1,29 @@
+<lift:surround with="default" at="content">
+  <lift:Guestbook.addPost form="POST">
+  	<table>
+  	  <tr>
+  	    <td><label for="name">Name:</label></td>
+  	    <td><post:name id="name" /></td>
+  	    <td><label for="email">E-Mail:</label></td>
+  	    <td><post:email id="email"  /></td>
+  	  </tr>
+  	  <tr>
+  	    <td colspan="4">
+  	      <label for="text">Text:</label><br />
+  	      <post:text />
+  	    </td>
+  	  </tr>
+  	  <tfoot>
+  	    <post:submit />
+  	  </tfoot>
+  	</table>
+  </lift:Guestbook.addPost>
+  <hr class="space" />
+  <lift:Guestbook.posts>
+  	<guestbook:post>
+  		<hr />
+  		<post:name /><br />
+  		<post:text />
+  	</guestbook:post>
+  </lift:Guestbook.posts>
+</lift:surround>

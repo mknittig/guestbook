@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.scala" kind="src" output="target/scala_2.8.0.Beta1/test-classes" path="src/test/scala"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry including="**/*.scala" kind="src" path="src/main/scala"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/paranamer-2.0.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-util-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/derby-10.5.3.0_1.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-machine-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-common-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/test/servlet-api-2.5-6.1.14.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/test/jetty-util-6.1.14.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/test/scala-library-2.8.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-actor-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/smack-3.1.0.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/mail-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-facebook-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-textile-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/scala-library-2.8.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/slf4j-api-1.5.11.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/test/jetty-6.1.14.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/smackx-3.1.0.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-xmpp-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-webkit-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-record-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/slf4j-log4j12-1.5.11.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-widgets-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-amqp-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/amqp-client-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/test/scala-compiler-2.8.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/h2-1.2.127.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/provided/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-mapper-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-core-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/test/scalatest-1.0.1-for-scala-2.8.0.Beta1-with-test-interfaces-0.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/commons-io-1.2.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/lift-json-2.0-scala280-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0.Beta1/compile/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="con" path="ch.epfl.lamp.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/scala_2.8.0.Beta1/classes"/>
+</classpath>
