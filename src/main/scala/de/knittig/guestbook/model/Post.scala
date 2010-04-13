@@ -15,7 +15,9 @@ class Post extends LongKeyedMapper[Post] with IdPK {
   object name extends MappedString(this, 255) {
     override def validations = valMinLen(3, "Name must be 3 characters long") _ :: super.validations
   }
-  object email extends MappedBlankableEmail(this, 255)
+  object email extends MappedBlankableEmail(this, 255) {
+    def toLink(label: String) = if (i_is_!.trim.isEmpty) <span>{label}</span> else <a href={"mailto:" + i_is_!}>{label}</a>
+  }
   
   object text extends MappedTextarea(this, 8192) {
     override def textareaRows  = 6
